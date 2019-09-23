@@ -30,6 +30,18 @@ $background-opacity:0.6;
     }
 }
 
+//set text color for white BG
+
+@function set-text-color($color) {
+    @if (lightness($color)> 40) {
+        @return #000;
+    }
+
+    @else {
+        @return #fff;
+    }
+}
+
 //Media query mixins 
 
 @mixin mediaSm {

@@ -10,7 +10,7 @@ body {
     @include background;
     background: linear-gradient(-90deg, #434343, #000000);
     background-repeat: no-repeat;
-    color: #fff;
+    color: set-text-color($primary-color);
     height: 100vh;
     margin: 0;
     font-family: 'Source Code Pro', monospace;
