@@ -79,19 +79,21 @@ main {
             margin-top: 20vh;
         }
     }
-}
 
-.up-btn {
-    position: fixed;
-    width: 35px;
-    height: 35px;
-    background: #444;
-    bottom: 40px;
-    right: 50px;
-    opacity: 0.5;
-    text-decoration: none;
-    text-align: center;
-    line-height: 30px;
-    color: white;
-    font-size: 22px;
+    #topbtn {
+        position: fixed;
+        width: 35px;
+        height: 35px;
+        background: #444;
+        bottom: 40px;
+        right: 50px;
+        opacity: 1;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+        border: 0;
+    }
 }
