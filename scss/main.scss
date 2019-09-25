@@ -8,13 +8,14 @@
 
 body {
     @include background;
+    background-attachment: fixed;
     background: linear-gradient(-90deg, #434343, #000000);
     background-repeat: no-repeat;
     color: set-text-color($primary-color);
-    height: 100vh;
     margin: 0;
     font-family: 'Source Code Pro', monospace;
     line-height: 1.5;
+
 }
 
 //headings
@@ -78,4 +79,19 @@ main {
             margin-top: 20vh;
         }
     }
+}
+
+.up-btn {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    background: #444;
+    bottom: 40px;
+    right: 50px;
+    opacity: 0.5;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 22px;
 }
