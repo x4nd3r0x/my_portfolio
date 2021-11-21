@@ -69,9 +69,9 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
-  background: url('../img/portrait.jpg');
+  width: 150px;
+  height: 150px;
+  background: url("../img/portrait.jpg");
   border-radius: 50%;
   border: solid 3px #24fe41;
 }
@@ -130,16 +130,16 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   margin: 0;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   line-height: 1.5;
 }
 body#bg-img {
-  background: url('../img/bg2.jpg');
+  background: url("../img/bg2.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 body#bg-img:after {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   right: 0;
@@ -206,7 +206,7 @@ main#home {
   overflow: hidden;
 }
 main#home h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   margin-top: 20vh;
 }
 main #topbtn {
@@ -230,8 +230,8 @@ main #topbtn {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    'bioimage bio bio'
-    'job1 job2 job3 ';
+    "bioimage bio bio"
+    "job1 job2 job3 ";
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -369,17 +369,17 @@ main #topbtn {
     transform: translate3d(-100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url('../img/portrait-small.jpg') center;
-    width: 150px;
-    height: 150px;
+    background: url("../img/portrait.jpg");
+    width: 195px;
+    height: 250px;
   }
   .about-info {
     grid-template-areas:
-      'bioimage'
-      'bio'
-      'job1'
-      'job2'
-      'job3';
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
     grid-template-columns: 1fr;
   }
   .projects {
@@ -392,9 +392,45 @@ main #topbtn {
     margin-top: 10vh;
     font-size: 72px;
   }
+
+  main .lg-heading {
+    font-size: 70px;
+  }
   .projects {
     grid-template-columns: 1fr;
   }
+  i {
+    font-size: 30px;
+  }
+
+  .text-secondary {
+    font-size: 30px;
+  }
+
+  .mail-text {
+    font-size: 20px;
+  }
+
+  .phone {
+    font-size: 20px;
+  }
+
+  .facebook-text {
+    font-size: 30px;
+  }
+  a.name-text {
+    font-size: 19px;
+  }
+
+  .text-secondary-work {
+    font-size: 50px;
+    color: #24fe41;
+  }
+  .text-secondary-home {
+    font-size: 60px;
+    color: #24fe41;
+  }
+
   .boxes {
     display: flex;
     flex-wrap: wrap;
